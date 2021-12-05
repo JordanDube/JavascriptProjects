@@ -1,0 +1,47 @@
+.container
+{
+    border: 1px solid black;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.flex-game-area, .flex-select-buttons, .flex-score-table
+{
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.flex-game-area, .flex-select-buttons
+{
+    background: url('images/table.PNG') center;
+    color:#ffffff;
+}
+
+.flex-game-area div
+{
+    flex: 1;
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    height: 350px;
+}
+
+.flex-game-area div img
+{
+    margin: 10px;
+}
+
+.flex-select-buttons button
+{
+    padding: 10px;
+}
+
+table, th, td{
+    padding: 5px;
+    border: 1px solid black;
+}
+
