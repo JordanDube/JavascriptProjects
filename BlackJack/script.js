@@ -117,7 +117,7 @@ function deal()
     currentPlayer = PLAYER;
 
     availableCards = CARDS;
-
+    cardsLeft = 52;
     canStand = true;
     canHit = true;
 }
